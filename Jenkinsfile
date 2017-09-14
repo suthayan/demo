@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                Write-Output "Buiding";
+                Write-Output "Buiding"
             }
         }
         stage('Test') {
             steps {
-                Write-Output "Testing";
+                Write-Output "Testing"
             }
         }
         stage('Deploy') {
             steps {
-                Write-Output "Deploying...";
+                Write-Output "Deploying..."
             }
         }
     }
